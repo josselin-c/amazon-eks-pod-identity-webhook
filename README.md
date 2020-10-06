@@ -168,7 +168,9 @@ For self-hosted API server configuration, see see [SELF_HOSTED_SETUP.md](/SELF_H
 TODO
 
 ## Development
-TODO
+
+### Testing
+Run unit tests with `make test`
 
 ## Code of Conduct
 See [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)

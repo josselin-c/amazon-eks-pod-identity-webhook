@@ -96,6 +96,9 @@ clean::
 	rm -rf ./amazon-eks-pod-identity-webhook
 	rm -rf ./certs/
 
-.PHONY: docker push build local-serve local-request cluster-up cluster-down prep-config deploy-config delete-config clean
+test:
+	go test ./pkg/...
+
+.PHONY: docker push build local-serve local-request cluster-up cluster-down prep-config deploy-config delete-config clean test
 
 
